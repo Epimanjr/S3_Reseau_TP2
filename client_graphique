@@ -1,0 +1,4 @@
+#!/bin/bash
+
+javac -cp "src:src/TCP" -d "build/classes" src/TCP/*.java
+java -cp "build/classes" TCP/Graphique $1 $2
